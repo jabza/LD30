@@ -3,6 +3,13 @@
 --- !u!78 &1
 TagManager:
   tags:
+  - Conveyor
+  - Package
+  - DestinationA
+  - DestinationB
+  - DestinationC
+  - DestinationD
+  - Shaft
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -40,4 +47,20 @@ TagManager:
   - name: Default
     userID: 0
     uniqueID: 0
+    locked: 0
+  - name: Track
+    userID: 1
+    uniqueID: 2955207623
+    locked: 0
+  - name: Packages
+    userID: 2
+    uniqueID: 1550653363
+    locked: 0
+  - name: Shafts
+    userID: 3
+    uniqueID: 3579975831
+    locked: 0
+  - name: Text
+    userID: 4
+    uniqueID: 2694473639
     locked: 0
