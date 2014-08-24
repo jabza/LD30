@@ -39,7 +39,7 @@ public class EntryShaft : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
-		if(other.tag.Contains("Package"))
+		if(other.tag.Contains("Package") || other.tag.Contains("DestroyedPackage"))
 		{
 			mTimer = mDelayInterval;
 			mContact = false;

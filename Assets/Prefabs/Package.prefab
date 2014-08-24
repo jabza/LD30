@@ -54,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -5.21239185, y: -.903061867, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -71,7 +71,7 @@ Rigidbody2D:
   m_AngularDrag: 0
   m_GravityScale: 1
   m_FixedAngle: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -83,9 +83,9 @@ BoxCollider2D:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .813036203, y: .846354723}
+  m_Center: {x: -.00202274323, y: -.00900137424}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -101,6 +101,7 @@ MonoBehaviour:
   spriteB: {fileID: 21300000, guid: b045f8141de8f274195bbd2b3e7a2391, type: 3}
   spriteC: {fileID: 21300000, guid: 8a3c006a86894d44e8eae18d72f56d2f, type: 3}
   spriteD: {fileID: 21300000, guid: 11d44cb76c2169f4989128e225d8a88e, type: 3}
+  spriteDestroyed: {fileID: 21300000, guid: f905390843e228740af5fd75c38b8930, type: 3}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
